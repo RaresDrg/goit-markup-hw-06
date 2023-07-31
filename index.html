@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio Homework Project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    >
-    <link rel="stylesheet" href="css/modern-normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+    />
+    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
@@ -151,7 +151,7 @@
                 src="images/company-services/typing_code.jpg"
                 alt="typing code on keyboard"
                 width="370"
-              >
+              />
               <div class="overlay-text">
                 <h4>desktop apps</h4>
               </div>
@@ -161,7 +161,7 @@
                 src="images/company-services/mobile_development.jpg"
                 alt="mobile development"
                 width="370"
-              >
+              />
               <div class="overlay-text">
                 <h4>mobile apps</h4>
               </div>
@@ -171,7 +171,7 @@
                 src="images/company-services/color_palette.jpg"
                 alt="choosing a color from a palette"
                 width="370"
-              >
+              />
               <div class="overlay-text">
                 <h4>design solutions</h4>
               </div>
@@ -191,7 +191,7 @@
                   src="images/company-employees/christopher_walker.jpg"
                   alt="Christopher Walker"
                   width="270"
-                >
+                />
                 <h4 class="employee-name">Christopher Walker</h4>
                 <p class="employee-position">Product Designer</p>
                 <div class="employee-social-links-container">
@@ -241,7 +241,7 @@
                   src="images/company-employees/kylie_evans.jpg"
                   alt="Kylie Evans"
                   width="270"
-                >
+                />
                 <h4 class="employee-name">Kylie Evans</h4>
                 <p class="employee-position">Frontend Developer</p>
                 <div class="employee-social-links-container">
@@ -291,7 +291,7 @@
                   src="images/company-employees/ryan_harris.jpg"
                   alt="Ryan Harris"
                   width="270"
-                >
+                />
                 <h4 class="employee-name">Ryan Harris</h4>
                 <p class="employee-position">Marketing</p>
                 <div class="employee-social-links-container">
@@ -341,7 +341,7 @@
                   src="images/company-employees/tyler_moore.jpg"
                   alt="Tyler Moore"
                   width="270"
-                >
+                />
                 <h4 class="employee-name">Tyler Moore</h4>
                 <p class="employee-position">UI Designer</p>
                 <div class="employee-social-links-container">
@@ -526,9 +526,15 @@
 
         <form class="footer-subscribe-form">
           <h4 class="subscribe-form-caption">Subscribe to the newsletter</h4>
-          <div class="subscribe-form-fieldset" >
+          <div class="subscribe-form-fieldset">
             <label>
-              <input class="subscribe-form-input" type="email" name="email" placeholder="E-mail" required>
+              <input
+                class="subscribe-form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
             </label>
             <button class="submit-button" type="submit">
               Subscribe
@@ -538,7 +544,6 @@
             </button>
           </div>
         </form>
-
       </div>
     </footer>
 
@@ -550,6 +555,97 @@
             <use href="images/icons/icons.svg#icon-close_button"></use>
           </svg>
         </button>
+
+        <form class="form">
+          <h2 class="form-heading">
+            Leave your information and we'll call you back
+          </h2>
+          <div class="form-group">
+            <label class="label-text" for="name">Name</label>
+            <div class="input-box-text-and-icon">
+              <input
+                class="input-text"
+                type="text"
+                name="name"
+                id="name"
+                required
+              />
+              <svg class="input-icon">
+                <use href="./images/icons/icons.svg#icon-name_input"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="label-text" for="telephone">Telephone</label>
+            <div class="input-box-text-and-icon">
+              <input
+                class="input-text"
+                type="tel"
+                name="phone-number"
+                id="telephone"
+                required
+              />
+              <svg class="input-icon">
+                <use href="./images/icons/icons.svg#icon-phone_input"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="label-text" for="email">E-mail</label>
+            <div class="input-box-text-and-icon">
+              <input
+                class="input-text"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+              <svg class="input-icon">
+                <use href="./images/icons/icons.svg#icon-email_input"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="label-text" for="comments">Comments</label>
+            <textarea
+              class="textarea-text"
+              rows="6"
+              name="comments"
+              id="comments"
+              placeholder="Enter the text"
+            ></textarea>
+          </div>
+
+          <div class="form-group-checkbox">
+            <label class="checkbox-label">
+              <input
+                class="checkbox-input"
+                type="checkbox"
+                name="terms and conditions"
+                required
+              />
+              <svg class="checkbox-icon">
+                <use href="images/icons/icons.svg#icon-checkbox"></use>
+              </svg>
+              <svg class="checkbox-checked-icon">
+                <use href="images/icons/icons.svg#icon-checkbox-checked"></use>
+              </svg>
+              <p class="checkbox-label-text">
+                I agree with the letter and accept the
+                <span>
+                  <a href="https://goit.global/ro/" target="_blank"
+                    >Terms and Conditions
+                  </a>
+                </span>
+              </p>
+            </label>
+          </div>
+
+          <button class="send-button" type="submit">Send</button>
+        </form>
       </div>
     </div>
 
